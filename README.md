@@ -30,3 +30,6 @@ As such, TTGO ESP32 with LoRa and WiFi was used as it is lower in cost and provi
 
 # Cloud
 In order to send the data from the ESP32 to the cloud, IF This Then That (IFTTT) was used to create an applet, and the ESP32 was connected to the internet. This allows the ESP32 to send the data via HTTP and JSON to a google sheet. This google sheet is used to store, process and redistribute the data collect.
+
+# Important Notes
+1_Antenna_Testing, 2_Sending_Cloud, 3_Power_Optimisation, 4_Data_Verification uses a DHT11 sensor as a simple sample sensor to measure temperature and humidity in the air. Since this porject is about water measurements, 5_Completed_System integrates all with the actual sensor.
